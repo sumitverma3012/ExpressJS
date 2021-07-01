@@ -33,6 +33,4 @@ app.get('/download', (req, res) => {
 })
 
 
-app.listen(PORT, () => {
-    console.log('Running');
-});
+app.listen(PORT, () => console.log('Running'));
