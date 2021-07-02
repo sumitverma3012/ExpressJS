@@ -19,12 +19,12 @@ router.get('/download', (req, res) => {
 })
 
 
-router.get('/api/products', apiKeyMiddleware, (req, res) => {
-    res.json([
-        {id: '123', name: 'Chrome'},
-        {id: '124', name: 'Firefox'}
-    ])
-})
+// router.get('/api/products', apiKeyMiddleware, (req, res) => {
+//     res.json([
+//         {id: '123', name: 'Chrome'},
+//         {id: '124', name: 'Firefox'}
+//     ])
+// })
 
 
 module.exports = router;
