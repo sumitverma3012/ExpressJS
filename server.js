@@ -35,4 +35,4 @@ app.use(mainRouter)
 // })
 
 
-app.listen(PORT, () => console.log('Running'));
+app.listen(PORT, () => console.log(`Running on port: ${PORT}`));
